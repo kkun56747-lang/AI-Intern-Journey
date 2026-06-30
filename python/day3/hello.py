@@ -1,0 +1,13 @@
+print("======================")
+print("欢迎加入AI学习！")
+print("      ")
+name = input("请输入你的名字：")
+print(f"姓名，{name}")
+age = input("请输入你的年龄：")
+print(f"年龄：{age}")
+专业 = input("请输入你的专业：")
+print(f"专业：{专业}")
+print("      ")
+print("继续加油！")
+print("======================")
+
