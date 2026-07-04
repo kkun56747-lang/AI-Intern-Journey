@@ -19,28 +19,20 @@ while True:
             print("当前没有任务")
         else:
             print("当前任务：")
-        for i in range(1,len(tasks)+1):
-            print(f"{i}.{tasks[i-1]}")
+            for i in range(1,len(tasks)+1):
+             print(f"{i}.{tasks[i-1]}")
         
 
     elif choice == "3":
-
         if len(tasks) == 0:
             print("当前没有任务")
         else: 
-            
             print("当前任务：")
             for i in range(1,len(tasks)+1):
               print(f"{i}.{tasks[i-1]}")
-              print("请输入删除编号：")
-
-            if  len(tasks) == 0:
-              print("当前没有任务可以删除！")
-
-            else:
-              delete = input()
-              tasks.pop(int(delete) - 1)
-              print("删除成功！")
+            delete = input("请输入删除编号：")
+            tasks.pop(int(delete) - 1)
+            print("删除成功！")
 
     elif choice == "4":
         print("程序结束")
